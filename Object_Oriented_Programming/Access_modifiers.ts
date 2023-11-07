@@ -1,9 +1,11 @@
 {
   // access modifiers
+//  use of public private 
+// class theke child class e extend korle tokhn protected korte hoy
   class BankAccount {
     public readonly id: number;
     public name: string;
-    private _balance: number;
+    private _balance: number; // private veriable gula _ emn underscore diye declear kora lage
 
     constructor(id: number, name: string, balance: number) {
       this.id = id;

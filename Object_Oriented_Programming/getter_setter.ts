@@ -1,5 +1,6 @@
 {
   // getter and setter
+//   getter function call na kore property er moto kore access korte pari value gula
   class BankAccount {
     public readonly id: number;
     public name: string;
